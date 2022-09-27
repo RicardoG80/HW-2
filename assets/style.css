@@ -1,0 +1,175 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: green;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+header h1 {
+    margin-left: 10px;
+    padding-left: 25px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+body{
+    margin: 0;
+    background: linear-gradient(-45deg, black, grey);
+    background-size: 1000%;
+    animation: animate 15s ease infinite;
+}
+
+.AboutMe{
+    display: flex;
+    justify-content: space-between;
+}
+
+.AboutMe h2{
+    background-color: green;
+    margin-left: 10px;
+    margin-top: 0;
+    border-radius: 10px;
+    height: 100px;
+    width: 10%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.AboutMe p {
+    display: flex;
+    margin-left: 0px;
+    justify-content: center;
+    width: 90%;
+    background-color: green;
+    margin-left: 20px;
+    margin-top: 0;
+    border-radius: 10px;
+    align-items: center;
+    height: 100px;
+    margin-right: 10px;
+    padding: 0 100px;
+}
+
+.Work{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Work h2{
+    background-color: green;
+    margin-left: 10px;
+    margin-top: 0;
+    border-radius: 10px;
+    height: auto;
+    width: 10%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.Content {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 100px;
+}
+
+.Content img {
+    border-radius: 10px;
+    display: flex;
+    border: green solid 10px;
+    margin-bottom: 25px;
+}
+
+.ContactMe{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ContactMe h2{
+    background-color: green;
+    margin-left: 10px;
+    margin-top: 0;
+    border-radius: 10px;
+    height: 100px;
+    width: 10%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.ContactMe ul {
+    display: flex;
+    margin-left: 0px;
+    width: 90%;
+    background-color: green;
+    margin-left: 20px;
+    margin-top: 0;
+    border-radius: 10px;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+    padding: 0 100px;
+    list-style-type: none;
+}
+
+.big {
+    width: 70%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.Resume{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Resume h2{
+    background-color: green;
+    margin-left: 10px;
+    margin-top: 0;
+    border-radius: 10px;
+    height: 100px;
+    width: 10%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.Resume p {
+    display: flex;
+    margin-left: 0px;
+    justify-content: center;
+    width: 90%;
+    background-color: green;
+    margin-left: 20px;
+    margin-top: 0;
+    border-radius: 10px;
+    align-items: center;
+    height: 100px;
+    margin-right: 10px;
+    padding: 0 100px;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
